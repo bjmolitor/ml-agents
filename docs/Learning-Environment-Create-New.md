@@ -50,6 +50,11 @@ importing the ML-Agents assets into it:
    ML-Agents repository.
 3. Drag the `ML-Agents` folder from `UnitySDK/Assets` to the Unity Editor
    Project window.
+4. From the Unity Menue choose `Edit` -> `Project Settings` -> `Player` and 
+   find the line `Scripting Runtime Version`. Set it to ".NET 4.x Equivalent". 
+   Later, you might also have to accept a quick fix in your C# IDE, to set the
+   project to C# 6 funtionality instead of C# 4, which Unity uses by default in 
+   new projects.
 
 Your Unity **Project** window should contain the following assets:
 

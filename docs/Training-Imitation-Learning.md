@@ -34,7 +34,7 @@ Machine Learning tasks work.
 5. In `config/trainer_config.yaml`, add an entry for the "Student" Brain. Set
    the `trainer` parameter of this entry to `imitation`, and the
    `brain_to_imitate` parameter to the name of the teacher Brain: "Teacher".
-   Additionally, set `batches_per_epoch`, which controls how much training to do
+   Additionally, set `batches_per_epoch` to 5, which controls how much training to do
    each moment. Increase the `max_steps` option if you'd like to keep training
    the Agents for a longer period of time.
 6. Launch the training process with `mlagents-learn config/trainer_config.yaml
